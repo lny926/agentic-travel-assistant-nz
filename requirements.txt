@@ -1,0 +1,29 @@
+# Web application
+fastapi
+uvicorn
+streamlit
+requests
+
+# Data processing
+pandas
+tzdata
+
+# LangChain / LangGraph
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-openai
+langchain-ollama
+langchain-chroma
+langgraph
+
+# Vector database / RAG
+chromadb
+sentence-transformers
+
+# Local reranker
+torch
+
+# PDF loading for dissertation RAG evaluation
+pypdf

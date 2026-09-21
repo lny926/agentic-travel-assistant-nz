@@ -1,0 +1,158 @@
+﻿id,category,question,expected_services,actual_services,expected_sources,actual_sources,routing_correct,source_correct,answer_valid,successful,response_time,answer,error
+e2e_general_01,general,Is Queenstown in the South Island?,general,general,,,True,True,True,True,25.63,"Yes — Queenstown is in the South Island of New Zealand. It sits in the Otago region, on the shores of Lake Wakatipu, in the southern part of the South Island.",
+e2e_weather_01,weather,What will the weather be tomorrow in Auckland?,weather,weather,Open-Meteo,Open-Meteo,True,True,True,True,5.17,"Tomorrow in Auckland (22 September 2026), expect **moderate drizzle** with a high of about **18.2°C** and a low of **11.8°C**. There's a **70% chance of precipitation**, so it's a good idea to carry an umbrella or rain jacket if you're heading out.
+
+With drizzle and fairly mild temperatures, it's not a washout, but you may want to plan for damp conditions — a light waterproof layer and shoes that handle wet pavement will make things more comfortable.",
+e2e_places_01,places,Recommend some restaurants in Auckland.,places,places,,,True,True,True,True,46.8,"I'd love to help with Auckland restaurant recommendations, but I wasn't able to pull current restaurant listings for Auckland right now — the place search didn't return results. Since restaurant details like opening status, hours, and current offerings change frequently, I don't want to guess at specifics.
+
+Here's what I can offer instead:
+
+**General guidance for finding great Auckland restaurants**
+
+Auckland has a strong and varied dining scene, and a few well-established areas are worth exploring:
+
+- **Britomart & the Viaduct Harbour** – A central downtown precinct with a dense cluster of restaurants and bars, ranging from casual to upscale. Good if you want variety within walking distance.
+- **Ponsonby & Ponsonby Road** – Known for a lively strip of cafés, bistros, and international restaurants. Popular for brunch and dinner.
+- **Parnell** – A historic village feel with a mix of long-standing restaurants and cafés.
+- **Karangahape Road (K' Road)** – Eclectic, diverse, and known for a wide range of ethnic cuisines and late-night spots.
+- **Newmarket & Dominion Road** – Dominion Road in particular is well known for its concentration of Asian restaurants.
+- **Wynyard Quarter** – Waterfront dining with a relaxed atmosphere.
+
+**Cuisine highlights Auckland is known for**
+- Fresh seafood (green-lipped mussels, oysters, snapper)
+- Pacific and Māori-influenced contemporary dining
+- Strong Asian food scene (Chinese, Thai, Malaysian, Japanese, Korean, Indian)
+- Excellent coffee culture and brunch spots
+
+**Tips**
+- For popular places, booking ahead is often wise, especially on weekends.
+- Many suburbs have their own local gems, so if you tell me where you're staying, I can suggest which area to focus on.
+
+If you'd like, let me know:
+- Your **budget** (casual, mid-range, fine dining)
+- **Cuisine preferences**
+- **Neighbourhood** you'll be in
+- Whether you want **family-friendly**, **romantic**, or **group-friendly** options
+
+…and I can give you more targeted suggestions. I'd also recommend checking a current listings app or the restaurants' own pages for up-to-date hours and availability, since those change often.",
+e2e_rag_01,rag,"According to the travel knowledge base, what is the difference between Waiheke Island and Rangitoto Island?",rag,rag,auckland.md,auckland.md,True,True,True,True,23.14,"Based on the travel knowledge base, here's how Waiheke Island and Rangitoto Island differ:
+
+**Waiheke Island**
+- Best suited for relaxed travel, food, beaches, and wineries
+- A good fit for couples and travellers who want a leisurely pace
+- The focus is on dining, beaches, and a more laid-back experience
+
+**Rangitoto Island**
+- A volcanic island visible from many parts of Auckland
+- Best suited for hiking, volcanic landscapes, panoramic views, and active travellers
+- Popular for nature-focused day trips, with the summit walk being one of its best-known experiences
+- More physically active than Waiheke, so visitors should bring water, suitable footwear, sun protection, and weather-appropriate clothing
+
+**In short:**
+- **Waiheke = relaxed, food, beaches, wineries**
+- **Rangitoto = hiking, volcano, views**
+
+So if you're after a leisurely day of food and beaches, Waiheke is the better pick. If you want an active day of hiking and volcanic scenery with great views, Rangitoto is the one to choose.",
+e2e_rag_02,rag,"According to the travel knowledge base, what is the difference between Queenstown and Wanaka?",rag,rag,queenstown.md,queenstown.md,True,True,True,True,7.74,"Based on the travel knowledge base, here's how Queenstown and Wanaka compare:
+
+**Queenstown**
+- More nightlife and a livelier scene
+- More organised adventure activities
+- Busier tourism infrastructure
+- A compact town centre
+- A stronger high-adrenaline identity — energetic and busy overall
+
+**Wanaka**
+- Quieter and more relaxed
+- A strong hiking and lake atmosphere (centred on Lake Wanaka)
+- Lake-focused, with cafés and scenic landscapes
+- Often preferred by travellers seeking a slower pace
+
+**In short:** Queenstown is the busier, more energetic resort town with more nightlife and organised adventure, while Wanaka is calmer and more relaxed, with a lake-and-hiking focus that appeals to those wanting a slower pace.
+
+A couple of practical notes from the knowledge base:
+- The two are within road-trip distance of each other, connected by the **Crown Range road**, an elevated mountain route with dramatic scenery — though conditions can vary.
+- Wanaka can work as a day trip from Queenstown, but it can also justify an overnight stay, especially for travellers seeking a quieter experience or repeat South Island visitors.
+
+So your choice really comes down to pace and priorities: pick Queenstown for energy, nightlife, and organised adventure; pick Wanaka for a calmer, lake-and-hiking-oriented stay.",
+e2e_analytics_01,analytics,How much did international visitors spend in Auckland in July 2026?,analytics,analytics,,MBIE Monthly Regional Tourism Estimates (MRTE),True,True,True,True,2.64,"International visitors spent **NZ$186.84 million** in Auckland in July 2026.
+
+This figure is based on the analytics data for the period 1–31 July 2026, filtered to the Auckland region and international visitors.",
+e2e_analytics_02,analytics,Compare tourism spending between Auckland and Otago in July 2026.,analytics,analytics,,MBIE Monthly Regional Tourism Estimates (MRTE),True,True,True,True,3.43,"Based on the available analytics data for July 2026, tourism spending was significantly higher in Auckland than in Otago:
+
+- **Auckland:** NZD 436.97 million
+- **Otago:** NZD 228.16 million
+
+Auckland's tourism spending was roughly **1.9 times** that of Otago for the month — a difference of about **NZD 208.81 million**.
+
+This gap is consistent with Auckland being New Zealand's largest city and a major international gateway, which typically drives higher visitor volumes and spending. Otago, while home to major destinations like Queenstown and Dunedin, draws a smaller total spend, partly reflecting its more seasonal winter tourism patterns in July.
+
+**Note:** The analytics data reflects a single reporting date (31 July 2026) within the July window, so these figures should be treated as the monthly spending values for that period.",
+e2e_multi_01,multi_tool,Check the weather tomorrow in Auckland and tell me whether Waiheke Island would be suitable.,"weather, rag","weather, general","Open-Meteo, auckland.md",Open-Meteo,False,False,True,False,6.23,"Based on the forecast for tomorrow (22 September 2026) in Auckland, here's how it looks for a trip to Waiheke Island:
+
+**Weather in Auckland tomorrow**
+- Condition: Moderate drizzle
+- Temperature: 11.8°C – 18.2°C
+- Chance of precipitation: 70%
+
+**Is Waiheke Island suitable?**
+It's workable but not ideal. Waiheke is best enjoyed for its outdoor attractions — beaches, vineyards, coastal walks, and the ferry crossing itself — and a 70% chance of moderate drizzle will make those less pleasant. You'd likely be dealing with wet, slippery tracks, limited views from lookouts, and a damp ferry ride.
+
+**Recommendation:**
+- If you're set on going, plan around indoor-friendly stops (cellar doors, cafés, galleries) and bring a waterproof jacket and sturdy footwear. The ferry still runs in drizzle, so getting there isn't the issue — it's what you do once you're there.
+- If your main goal is coastal scenery, beaches, or walking tracks, consider postponing to a clearer day, since visibility and comfort will be noticeably reduced.
+- If you're flexible, a shorter Auckland-based day with indoor activities might be a better use of tomorrow.
+
+In short: possible, but drizzle at 70% probability makes it a mediocre day for the outdoor side of Waiheke.",
+e2e_multi_02,multi_tool,What is the weather in Queenstown tomorrow and recommend some restaurants there?,"weather, places","weather, places",Open-Meteo,"Open-Meteo, OpenStreetMap",True,True,True,True,31.71,"# Queenstown Weather Tomorrow (22 September 2026)
+
+Tomorrow looks like a cold, wet day in Queenstown:
+
+- **High:** 8.1°C
+- **Low:** 1.8°C
+- **Precipitation probability:** 100%
+
+With near-certain rain and temperatures barely reaching double digits, it's a day for warm layers, a waterproof jacket, and planning indoor-friendly activities. It's also a great excuse to lean into Queenstown's food scene — a long, cozy meal is ideal in this kind of weather.
+
+# Restaurant Recommendations
+
+Here are some options from the available listings, grouped by what might suit a cold, rainy day:
+
+**For a hearty, warming meal**
+- **Flame** (steak house) — A steakhouse is a natural fit for a chilly, wet day when you want something substantial and comforting.
+- **Botswana Butchery** (steak house) — Another steakhouse option; phone: +64 3 442 6994. Good for a sit-down dinner out of the rain.
+- **The Lone Star** (Tex-Mex) — Open daily 04:00–24:00, so it's flexible if you want a late or early meal. Tex-Mex tends to be rich and warming.
+
+**For something cozy and shareable**
+- **Brazz** (tapas) — Tapas-style dining works well for a leisurely indoor meal while waiting out the rain.
+- **Farelli's Trattoria** (Italian) — Italian comfort food is a solid choice for cold weather.
+
+**For a lighter or casual bite**
+- **Saigon Kingdom** (Vietnamese) — Warming soups and broths are a great match for a wet, cold day.
+- **Winnebagos** (gourmet pizza) — Casual and easy if you want something low-key.
+- **Devil Burger** (burgers) — Open 10:00–04:00, phone +64 3 442 4666, website: devilburger.com. Convenient for a quick, filling meal.
+- **The Ballarat Trading Co.** — Cuisine isn't specified in the available information, so I can't comment on what it serves.
+
+**For a more polished dining experience**
+- **Rata Dining** — Open daily 12:00–22:00, website: ratadining.co.nz. A good option if you'd like a relaxed, sit-down lunch or dinner while it's raining outside.
+
+**A quick note on suitability:** The available information doesn't tell me which of these venues have indoor seating, views, or specific atmospheres, so I can't confirm details like that. What I can say is that on a day with certain rain and a high of only 8°C, any of the sit-down restaurants above would make more sense than trying to eat outdoors.
+
+If you'd like, I can help narrow this down further based on your preferred cuisine, budget, or whether you want somewhere near a particular part of town.",
+e2e_rag_03,rag,What should a family with young children do in Auckland on a rainy day?,rag,rag,auckland.md,auckland.md,True,True,True,True,8.66,"For a rainy day in Auckland with young children, here are some good options:
+
+**Top pick: SEA LIFE Kelly Tarlton's**
+This is an aquarium attraction in the eastern bays area, and it's specifically noted as a strong choice for families with children on rainy days. Because it's largely indoors, it works well when outdoor sightseeing isn't appealing. If the weather clears up later, it can be paired with a visit to nearby Mission Bay.
+
+**Other rainy-day options in Auckland**
+- **Auckland Museum** – a good indoor option for families
+- **Auckland Art Gallery** – another indoor choice
+- **Maritime Museum** – indoor and family-friendly
+- **MOTAT** – a museum attraction that works well in wet weather
+- **Shopping, cafés, and indoor dining** – useful fillers if you want something low-key
+
+**Why these work for your situation**
+With young children, you'll want somewhere engaging, easy to manage, and not dependent on good weather. Kelly Tarlton's stands out because it's explicitly suited to families, children, and rainy days. The museums listed are also solid indoor backups.
+
+**A practical tip**
+Since opening hours, ticket prices, and availability can change, it's worth checking the current details for whichever attraction you choose before heading out.",

@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+
+# Windows / macOS
+Thumbs.db
+.DS_Store
+
+# Python cache / testing
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Local database
+data/travel_ai.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Chroma / generated vector databases
+data/vector_store/
+data/rag_eval/dissertation_vector_store/
+
+# Temporary / generated files
+tmp/
+temp/
+*.tmp
+
+# Model / cache files
+.cache/
+models/
+
+# Local evaluation scratch files
+evaluation/__pycache__/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Private dissertation source
+data/rag_eval/source/
+
+# Raw source spreadsheet
+data/raw/Region-series.xlsx
