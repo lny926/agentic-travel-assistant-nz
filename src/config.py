@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 
@@ -10,14 +11,41 @@ VECTOR_STORE_DIR = DATA_DIR / "vector_store"
 
 
 # LLM
-LLM_MODEL = "deepseek-v4-flash"
-DEEPSEEK_BASE_URL = "https://api.deepseek.com"
+LLM_MODEL = os.getenv(
+    "LLM_MODEL",
+    "deepseek-flash"
+)
+
+DEEPSEEK_BASE_URL = os.getenv(
+    "DEEPSEEK_BASE_URL",
+    "https://api.deepseek.com"
+)
 
 
-# Embedding
-EMBEDDING_MODEL = "qwen3-embedding:4b"
-OLLAMA_BASE_URL = "http://localhost:11434"
+# Embedding provider
+EMBEDDING_PROVIDER = os.getenv(
+    "EMBEDDING_PROVIDER",
+    "huggingface"
+)
 
+
+# Default Docker-friendly embedding
+HF_EMBEDDING_MODEL = os.getenv(
+    "HF_EMBEDDING_MODEL",
+    "BAAI/bge-small-en-v1.5"
+)
+
+
+# Optional Ollama embedding
+OLLAMA_EMBEDDING_MODEL = os.getenv(
+    "OLLAMA_EMBEDDING_MODEL",
+    "qwen3-embedding:4b"
+)
+
+OLLAMA_BASE_URL = os.getenv(
+    "OLLAMA_BASE_URL",
+    "http://localhost:11434"
+)
 
 # RAG
 CHUNK_SIZE = 500

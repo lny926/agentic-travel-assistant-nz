@@ -27,3 +27,6 @@ torch
 
 # PDF loading for dissertation RAG evaluation
 pypdf
+
+# Embeddings model
+langchain-huggingface
